@@ -1,6 +1,7 @@
 import { Outlet } from "react-router";
 import TopMenu from "./shared-components/top-menu";
 import "./App.css";
+import { Container } from "@mui/system";
 
 function App() {
   return (
@@ -8,8 +9,10 @@ function App() {
       <header>
         <h1>Hello friend of Loki!</h1>
         <TopMenu />
-        <Outlet />
       </header>
+      <Container maxWidth="sm">
+        <Outlet />
+      </Container>
     </div>
   );
 }

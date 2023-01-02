@@ -1,10 +1,5 @@
+import TextInput from "../../shared-components/text-input";
+
 export default function SearchBook() {
-  return (
-    <div>
-      <label htmlFor="searchInput">
-        Search
-        <input id="searchInput" name="searchInput"></input>
-      </label>
-    </div>
-  );
+  return <TextInput name="searchInput" label="Search" />;
 }

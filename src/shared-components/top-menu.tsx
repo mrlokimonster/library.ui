@@ -23,12 +23,7 @@ export default function TopMenu() {
           orientation="horizontal"
           centered
         >
-          <Tab
-            value="one"
-            label="Search"
-            component={Link}
-            to="/search"
-          />
+          <Tab value="one" label="Search" component={Link} to="/search" />
           <Tab value="two" label="Add" component={Link} to="/add" />
           <Tab value="three" label="Edit" component={Link} to="/edit" />
         </Tabs>

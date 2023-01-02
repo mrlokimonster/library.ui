@@ -1,3 +1,5 @@
+import { TextField } from "@mui/material";
+
 interface TextInputProps {
   name: string;
   label: string;
@@ -5,9 +7,8 @@ interface TextInputProps {
 
 export default function TextInput(props: TextInputProps) {
   return (
-    <label>
-      {props.label}
-      <input name={props.name} type="text" />
+    <label htmlFor={props.name}>
+      <TextField id={props.name} label={props.label} variant="standard" />
     </label>
   );
 }
