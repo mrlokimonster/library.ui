@@ -1,20 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import SearchPage from "./areas/search/search-book";
+import "./App.css";
+import AddBook from "./areas/add/add-book";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello friend of Loki!
-        </a>
+        <h1>Hello friend of Loki!</h1>
+
+        <SearchPage />
+        <AddBook />
       </header>
     </div>
   );
