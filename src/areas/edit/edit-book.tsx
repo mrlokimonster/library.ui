@@ -1,1 +1,3 @@
-export default function EditBook() {}
+export default function EditBook() {
+  return <></>;
+}
