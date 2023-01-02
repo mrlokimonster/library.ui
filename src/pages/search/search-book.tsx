@@ -1,4 +1,4 @@
-export default function SearchPage() {
+export default function SearchBook() {
   return (
     <div>
       <label htmlFor="searchInput">
