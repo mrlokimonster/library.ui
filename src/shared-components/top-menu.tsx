@@ -21,6 +21,7 @@ export default function TopMenu() {
           indicatorColor="secondary"
           aria-label="secondary tabs example"
           orientation="horizontal"
+          centered
         >
           <Tab
             value="one"
